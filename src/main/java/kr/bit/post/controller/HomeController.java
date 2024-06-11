@@ -1,4 +1,4 @@
-package kr.bit.controller;
+package kr.bit.post.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
