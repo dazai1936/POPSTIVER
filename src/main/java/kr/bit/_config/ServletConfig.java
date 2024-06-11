@@ -6,7 +6,7 @@ import org.springframework.web.servlet.config.annotation.*;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("kr.bit.controller")
+@ComponentScan("kr.bit.**")
 public class ServletConfig extends WebMvcConfigurerAdapter {
 
     @Override

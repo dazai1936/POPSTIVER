@@ -16,7 +16,7 @@ import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
 @Configuration
-@ComponentScan(basePackages = "kr.bit.controller")
+@ComponentScan(basePackages = "kr.bit.**")
 @PropertySource({"classpath:db.properties"})
 public class RootConfig {
     @Autowired
